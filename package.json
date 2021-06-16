@@ -5,6 +5,7 @@
   "author": "Tomoki Sato",
   "license": "MIT",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "private": true,
   "scripts": {
     "lint:js": "eslint 'src/**/*.js'"

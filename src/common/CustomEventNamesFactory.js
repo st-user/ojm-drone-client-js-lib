@@ -15,6 +15,9 @@ export default class CustomEventNamesFactory {
                 });
                 names[key] = value;
                 return names;
+            },
+            get: (key) => {
+                return names[key];               
             }
         };
         return names;
