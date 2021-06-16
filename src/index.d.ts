@@ -9,7 +9,7 @@ export interface CustomEventNamesFactoryStatic {
 }
 
 export interface CustomEventNameKeyValues {
-    set(key: string, value: string): void;
+    set(key: string, value: string): CustomEventNameKeyValues;
     get(key: string): string
 }
 
