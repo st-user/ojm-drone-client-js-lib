@@ -1,6 +1,6 @@
 export interface CommonEventDispatcherStatic {
     dispatch(_eventName: string, detail?: any, context?: string): void
-    on(_eventName: string, handler: (event: Event) => void, context?: string): void
+    on(_eventName: string, handler: (event: { detail: any }) => void, context?: string): void
 }
 declare const CommonEventDispatcher: CommonEventDispatcherStatic
 
